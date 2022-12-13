@@ -10,6 +10,7 @@ const subtractNum = (num1, num2) => num1 - num2;
 const multiplyNum = (num1, num2) => num1 * num2;
 const divideNum = (num1, num2) => num1 / num2;
 
+
 if (operator == "+") {
     alert(`The sum of ${firstNumber} and ${secondNumber} is equal to ${addNum(firstNumber, secondNumber)}.`);
 } else if (operator == "-") {
